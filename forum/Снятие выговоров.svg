@@ -30,7 +30,7 @@
 
   <!-- Заголовок -->
   <text x="50%" y="260" text-anchor="middle" dominant-baseline="middle"
-        font-family="Impact, Arial Black, sans-serif" font-size="48" fill="#ccc" text-transform="uppercase">
+        font-family="Arial Black, Arial, sans-serif" font-size="48" fill="#ccc" text-transform="uppercase">
     СНЯТИЕ ВЫГОВОРОВ
   </text>
 
@@ -38,29 +38,31 @@
   <rect x="100" y="300" width="1000" height="220" rx="15" fill="rgba(30,30,30,0.8)" stroke="#555" stroke-width="2"/>
   <text x="120" y="330" font-family="Consolas, monospace" font-size="28" fill="#ddd" font-weight="bold">ВАЖНО</text>
   <text x="120" y="370" font-family="Consolas, monospace" font-size="22" fill="#ccc">
-    <tspan x="120" dy="0">Текст для блока ВАЖНО...</tspan>
-    <tspan x="120" dy="30">Дополнительная информация о правилах снятия выговоров.</tspan>
-    <tspan x="120" dy="30">Следите за всеми указаниями руководства SWAT.</tspan>
+    <tspan x="120" dy="0">При получении дисциплинарных взысканий в виде выговоров</tspan>
+    <tspan x="120" dy="30">вы можете подать заявление на снятие полученного наказания.</tspan>
+    <tspan x="120" dy="30">Заявления проверяются в течение 24 часов с момента подачи.</tspan>
+    <tspan x="120" dy="30">Попытки ускорить проверку могут привести к отказу.</tspan>
   </text>
 
   <!-- Блок КРИТЕРИИ -->
   <rect x="100" y="540" width="1000" height="280" rx="15" fill="rgba(30,30,30,0.8)" stroke="#555" stroke-width="2"/>
   <text x="120" y="570" font-family="Consolas, monospace" font-size="28" fill="#ddd" font-weight="bold">КРИТЕРИИ</text>
   <text x="120" y="610" font-family="Consolas, monospace" font-size="22" fill="#ccc">
-    <tspan x="120" dy="0">Текст для блока КРИТЕРИИ...</tspan>
-    <tspan x="120" dy="30">Условия и требования к сотрудникам.</tspan>
-    <tspan x="120" dy="30">Все шаги должны выполняться корректно.</tspan>
-    <tspan x="120" dy="30">Документы и доказательства должны быть предоставлены вовремя.</tspan>
-    <tspan x="120" dy="30">Аккуратность в подаче заявлений крайне важна.</tspan>
+    <tspan x="120" dy="0"></tspan>
+    <tspan x="120" dy="30">Чтобы снять дисциплинарное взыскание вы обязаны выполнить поручение от</tspan>
+    <tspan x="120" dy="30">руководства, а также прикрепить все необходимые документы:</tspan>
+    <tspan x="120" dy="30"> - Паспорт((/showpass + /time))</tspan>
+    <tspan x="120" dy="30"> - Выписка из базы сотрудников((/members + /time))</tspan>
+    <tspan x="120" dy="30"> - Рабочее удостоверение((/showbadge + /time))</tspan>
   </text>
 
   <!-- Блок ПРИМЕЧАНИЕ -->
   <rect x="100" y="840" width="1000" height="160" rx="15" fill="rgba(30,30,30,0.8)" stroke="#555" stroke-width="2"/>
   <text x="120" y="870" font-family="Consolas, monospace" font-size="28" fill="#ddd" font-weight="bold">ПРИМЕЧАНИЕ</text>
   <text x="120" y="900" font-family="Consolas, monospace" font-size="22" fill="#ccc">
-    <tspan x="120" dy="0">Текст для блока ПРИМЕЧАНИЕ...</tspan>
-    <tspan x="120" dy="30">Дополнительные уточнения и советы.</tspan>
-    <tspan x="120" dy="30">Важная информация для сотрудников SWAT.</tspan>
+    <tspan x="120" dy="0">Все скриншоты должны быть с /time.</tspan>
+    <tspan x="120" dy="30">Руководство оставляет за собой право выбора на одобрение/отказ вашего заявления.</tspan>
+    <tspan x="120" dy="30">При получении 3 выговоров вы будете уволены с должности.</tspan>
   </text>
 
   <!-- Кнопка "Подать заявление" -->
@@ -69,4 +71,7 @@
         font-family="Consolas, monospace" font-size="24" fill="#fff">
     Подать заявление
   </text>
+	<text x="98%" y="98%" text-anchor="end" font-family="Arial" font-size="10" fill="rgba(255,255,255,0.15)">
+  Made with Gary Unwin
+</text>
 </svg>
