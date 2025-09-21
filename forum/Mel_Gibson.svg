@@ -46,9 +46,9 @@
 
   <line x1="220" y1="115" x2="520" y2="115" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
 
-  <text x="220" y="150" font-family="Consolas, monospace" font-size="15" fill="#cccccc">Возраст: 21   |   Пол: мужской</text>
-  <text x="220" y="175" font-family="Consolas, monospace" font-size="15" fill="#cccccc">Дата постановления: 21.09.2025</text>
-  <text x="220" y="200" font-family="Consolas, monospace" font-size="15" fill="#cccccc">Занятие: Работа с академистами</text>
+  <text x="220" y="150" font-family="Consolas, monospace" font-size="15" fill="#cccccc">Возраст: 20   |   Пол: мужской</text>
+  <text x="220" y="175" font-family="Consolas, monospace" font-size="15" fill="#cccccc">Дата постановления: 20.09.2025</text>
+  <text x="220" y="200" font-family="Consolas, monospace" font-size="15" fill="#cccccc">Занятие: Управление академией</text>
 
   <!-- Полоска снизу с плавным переливом -->
   <rect x="220" y="215" width="300" height="2" fill="url(#lineGrad)" rx="1"/>
