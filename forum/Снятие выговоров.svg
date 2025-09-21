@@ -1,10 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1800">
 
   <!-- Прозрачный фон -->
-  <rect width="1200" height="1600" fill="transparent"/>
+  <rect width="1200" height="1800" fill="transparent"/>
+
+  <!-- Баннер сверху -->
+  <image href="https://raw.githubusercontent.com/gop1k/arizona/refs/heads/main/forum/banner.gif" 
+         x="0" y="0" width="1200" height="200"/>
 
   <!-- Основной Glass-блок с subtle glow и анимацией обводки -->
-  <rect x="60" y="100" width="1080" height="1400" rx="25" fill="rgba(40,40,40,0.7)" stroke-width="6">
+  <rect x="60" y="220" width="1080" height="1450" rx="25" fill="rgba(40,40,40,0.7)" stroke-width="6">
     <animate attributeName="stroke" values="#888888;#bbbbbb;#888888" dur="1.5s" repeatCount="indefinite"/>
     <filter id="glow">
       <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#999"/>
@@ -12,16 +16,16 @@
   </rect>
 
   <!-- Заголовок с лёгким glow -->
-  <text x="50%" y="60" text-anchor="middle" dominant-baseline="middle"
-        font-family="Segoe UI Semibold, sans-serif" font-size="48" fill="#dddddd"
+  <text x="50%" y="280" text-anchor="middle" dominant-baseline="middle"
+        font-family="Oswald, sans-serif" font-size="48" fill="#dddddd"
         filter="url(#glow)">
     Снятие выговоров
   </text>
 
   <!-- Блок ВАЖНО -->
-  <rect x="100" y="150" width="1000" height="220" rx="15" fill="rgba(60,60,60,0.6)" stroke="#999999" stroke-width="1"/>
-  <text x="120" y="180" font-family="Segoe UI, sans-serif" font-size="28" fill="#bbbbbb" font-weight="bold">ВАЖНО</text>
-  <text x="120" y="220" font-family="Segoe UI, sans-serif" font-size="22" fill="#cccccc">
+  <rect x="100" y="330" width="1000" height="220" rx="15" fill="rgba(60,60,60,0.6)" stroke="#999999" stroke-width="1"/>
+  <text x="120" y="360" font-family="Oswald, sans-serif" font-size="28" fill="#bbbbbb" font-weight="bold">ВАЖНО</text>
+  <text x="120" y="400" font-family="Oswald, sans-serif" font-size="22" fill="#cccccc">
     <tspan x="120" dy="0">Ознакомьтесь с порядком снятия дисциплинарных взысканий.</tspan>
     <tspan x="120" dy="30">Все действия должны выполняться строго по указаниям руководства.</tspan>
     <tspan x="120" dy="30">Любое отклонение может привести к повторным взысканиям.</tspan>
@@ -29,9 +33,9 @@
   </text>
 
   <!-- Блок КРИТЕРИИ -->
-  <rect x="100" y="400" width="1000" height="280" rx="15" fill="rgba(60,60,60,0.6)" stroke="#999999" stroke-width="1"/>
-  <text x="120" y="430" font-family="Segoe UI, sans-serif" font-size="28" fill="#bbbbbb" font-weight="bold">КРИТЕРИИ</text>
-  <text x="120" y="470" font-family="Segoe UI, sans-serif" font-size="22" fill="#cccccc">
+  <rect x="100" y="570" width="1000" height="280" rx="15" fill="rgba(60,60,60,0.6)" stroke="#999999" stroke-width="1"/>
+  <text x="120" y="600" font-family="Oswald, sans-serif" font-size="28" fill="#bbbbbb" font-weight="bold">КРИТЕРИИ</text>
+  <text x="120" y="640" font-family="Oswald, sans-serif" font-size="22" fill="#cccccc">
     <tspan x="120" dy="0">1. Своевременное выполнение поручений руководства SWAT.</tspan>
     <tspan x="120" dy="30">2. Корректное предоставление скриншотов и документов.</tspan>
     <tspan x="120" dy="30">3. Соблюдение всех регламентов и инструкций подразделения.</tspan>
@@ -40,19 +44,19 @@
   </text>
 
   <!-- Блок ПРИМЕЧАНИЕ -->
-  <rect x="100" y="700" width="1000" height="200" rx="15" fill="rgba(60,60,60,0.6)" stroke="#999999" stroke-width="1"/>
-  <text x="120" y="730" font-family="Segoe UI, sans-serif" font-size="28" fill="#bbbbbb" font-weight="bold">ПРИМЕЧАНИЕ</text>
-  <text x="120" y="770" font-family="Segoe UI, sans-serif" font-size="22" fill="#cccccc">
+  <rect x="100" y="870" width="1000" height="200" rx="15" fill="rgba(60,60,60,0.6)" stroke="#999999" stroke-width="1"/>
+  <text x="120" y="900" font-family="Oswald, sans-serif" font-size="28" fill="#bbbbbb" font-weight="bold">ПРИМЕЧАНИЕ</text>
+  <text x="120" y="940" font-family="Oswald, sans-serif" font-size="22" fill="#cccccc">
     <tspan x="120" dy="0">Указывайте только реальные данные. Все ссылки оформляйте корректно.</tspan>
     <tspan x="120" dy="30">Проверка тем производится в течение 24 часов после подачи информации.</tspan>
   </text>
 
   <!-- Кнопка "Подать заявление" с мягкой анимацией цвета -->
-  <rect x="450" y="950" width="300" height="60" rx="12" fill="rgba(120,120,120,0.9)" stroke="#ffffff" stroke-width="2">
+  <rect x="450" y="1200" width="300" height="60" rx="12" fill="rgba(120,120,120,0.9)" stroke="#ffffff" stroke-width="2">
     <animate attributeName="fill" values="rgba(120,120,120,0.9);rgba(160,160,160,0.9);rgba(120,120,120,0.9)" dur="2s" repeatCount="indefinite"/>
   </rect>
-  <text x="600" y="990" text-anchor="middle" dominant-baseline="middle"
-        font-family="Segoe UI Semibold, sans-serif" font-size="24" fill="#ffffff">
+  <text x="600" y="1240" text-anchor="middle" dominant-baseline="middle"
+        font-family="Oswald, sans-serif" font-size="24" fill="#ffffff">
     Подать заявление
   </text>
 
