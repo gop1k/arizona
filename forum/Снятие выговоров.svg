@@ -71,7 +71,7 @@
         font-family="Consolas, monospace" font-size="24" fill="#fff">
     Подать заявление
   </text>
-	<text x="98%" y="98%" text-anchor="end" font-family="Arial" font-size="10" fill="rgba(255,255,255,0.15)">
+	<text x="98%" y="98%" text-anchor="end" font-family="Arial" font-size="20" fill="rgba(255,255,255,0.15)">
   Made with Gary Unwin
 </text>
 </svg>
