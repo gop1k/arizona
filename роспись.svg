@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 200" width="1200" height="200" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Радужный плавный градиент -->
+    <linearGradient id="rainbowGrad" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#ff0000"/>
+      <stop offset="16%" stop-color="#ff7f00"/>
+      <stop offset="33%" stop-color="#ffff00"/>
+      <stop offset="50%" stop-color="#00ff00"/>
+      <stop offset="66%" stop-color="#0000ff"/>
+      <stop offset="83%" stop-color="#4b0082"/>
+      <stop offset="100%" stop-color="#8b00ff"/>
+      <!-- Плавное движение радужного градиента -->
+      <animateTransform attributeName="gradientTransform"
+                        type="translate"
+                        from="-1 0" to="1 0"
+                        dur="8s"
+                        repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+          font-family="Segoe UI Symbol, 'Noto Sans', Arial, sans-serif"
+          font-weight="500"
+          font-size="60"
+          letter-spacing="4"
+          fill="url(#rainbowGrad)">
+      ♛ ᴄʀɪsᴛᴏ ᴄᴏʀᴘᴏʀᴀᴛɪᴏɴ ♛
+    </text>
+  </g>
+</svg>
