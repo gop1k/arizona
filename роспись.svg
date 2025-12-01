@@ -1,0 +1,41 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 200" width="1200" height="200" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Радужный градиент (в обратную сторону) -->
+    <linearGradient id="rainbowTextReverse" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%">
+        <animate attributeName="stop-color"
+                 values="#D32F2F;#9C27B0;#2196F3;#4CAF50;#FFEB3B;#F44336;#D32F2F"
+                 dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%">
+        <animate attributeName="stop-color"
+                 values="#9C27B0;#2196F3;#4CAF50;#FFEB3B;#F44336;#D32F2F;#9C27B0"
+                 dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%">
+        <animate attributeName="stop-color"
+                 values="#2196F3;#4CAF50;#FFEB3B;#F44336;#D32F2F;#9C27B0;#2196F3"
+                 dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Лёгкая тень -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+          font-family="'Segoe UI Symbol', 'Noto Sans Display', 'Arial Unicode MS', sans-serif"
+          font-weight="600"
+          font-size="60"
+          letter-spacing="4"
+          fill="url(#rainbowTextReverse)">
+      ♛ ᴄʀɪsᴛᴏ ᴄᴏʀᴘᴏʀᴀᴛɪᴏɴ ♛
+    </text>
+  </g>
+</svg>
