@@ -1,0 +1,45 @@
+<svg width="169" height="35" viewBox="0 0 169 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0)">
+    <rect width="169" height="35" rx="10" fill="url(#paint0)"/>
+    <mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="169" height="35">
+      <rect width="169" height="35" rx="10" fill="#2A2A2A"/>
+    </mask>
+    <g mask="url(#mask0)">
+      <path d="M65.4556 24.3408C88.3162 29.0854 100.856 46.8445 104.268 55.131C84.9197 35.0482 57.375 33.4645 46.0213 35.183C62.7178 -10.6466 104.582 -8.1064 123.427 -1.10759C107.52 8.9444 105.026 37.5788 105.767 50.6396C97.7858 31.7683 79.0533 24.2567 70.6847 22.8598C82.1967 19.09 93.1948 23.2579 97.2548 25.8132C99.0322 14.58 104.561 5.42373 107.103 2.24978C84.5974 1.26731 69.9608 16.5678 65.4556 24.3408Z" fill="white" fill-opacity="0.2"/>
+      <path d="M-23.4211 -77.6775C80.4929 -158.518 99.8185 -279.576 96.4919 -330C48.4798 -180.255 -86.9996 -103.77 -148.738 -84.2459C49.692 106.215 255.27 -10.7057 333.256 -92.9738C227.758 -104.311 143.954 -243.042 115.239 -310.991C121.754 -195.636 45.6125 -111.052 6.72754 -83.1796C74.3656 -92.7148 119.672 -141.149 133.87 -164.175C170.789 -111.737 221.531 -79.1352 242.286 -69.3891C130.82 -8.47407 18.7037 -49.5335 -23.4211 -77.6775Z" fill="url(#paint1)" fill-opacity="0.3" style="mix-blend-mode:overlay"/>
+    </g>
+
+    <text x="84.5" y="18" text-anchor="middle" dominant-baseline="middle"
+          fill="white" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="600">
+      ArizonaBanners
+    </text>
+
+    <rect x="1" y="1" width="167" height="33" rx="9" stroke="url(#paint2)" stroke-width="2"/>
+  </g>
+
+  <defs>
+    <!-- Основной фон: один цвет, который плавно меняется всеми цветами радуги -->
+    <linearGradient id="paint0" x1="0" y1="0" x2="169" y2="35" gradientUnits="userSpaceOnUse">
+      <stop offset="0%">
+        <animate attributeName="stop-color" values="#D32F2F;#F44336;#FFEB3B;#4CAF50;#2196F3;#9C27B0;#D32F2F" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%">
+        <animate attributeName="stop-color" values="#D32F2F;#F44336;#FFEB3B;#4CAF50;#2196F3;#9C27B0;#D32F2F" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="paint1" x1="94.2335" y1="19.0034" x2="93.5358" y2="-9.08056" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white"/>
+      <stop offset="1" stop-color="#999999" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="paint2" x1="84" y1="35" x2="84" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFCDD2"/>
+      <stop offset="1" stop-color="#EF9A9A" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="clip0">
+      <rect width="169" height="35" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
