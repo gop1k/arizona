@@ -64,5 +64,5 @@
   </text>
 
   <!-- Полоска снизу -->
-  <!-- <rect x="102.5" y="362.5" width="980" height="4" rx="2" fill="url(#bottomLineGrad)"/> -->
+  <rect x="102.5" y="362.5" width="980" height="4" rx="2" fill="url(#bottomLineGrad)"/>
 </svg>
