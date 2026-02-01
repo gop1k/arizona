@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400">
+  <defs>
+    <!-- ФОН -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d2028"/>
+      <stop offset="100%" stop-color="#0c0e12"/>
+    </linearGradient>
+
+    <!-- РАМКА -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2b2b"/>
+      <stop offset="50%" stop-color="#2b6cff"/>
+      <stop offset="100%" stop-color="#ff2b2b"/>
+    </linearGradient>
+
+    <!-- МИГАЛКА -->
+    <linearGradient id="bannerFlash" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0.3)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+      <animateTransform
+        attributeName="gradientTransform"
+        type="translate"
+        from="-1200 0"
+        to="1200 0"
+        dur="2s"
+        repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- ЗАТЕМНЕНИЕ БАННЕРА -->
+    <linearGradient id="bannerShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.1)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.35)"/>
+    </linearGradient>
+
+    <!-- НИЖНЯЯ ЛИНИЯ -->
+    <linearGradient id="lineGrad" x1="0%" y1="0" x2="100%" y2="0">
+      <stop offset="0%" stop-color="rgba(255,183,0,0.1)"/>
+      <stop offset="50%" stop-color="rgba(255,183,0,0.7)"/>
+      <stop offset="100%" stop-color="rgba(255,183,0,0.1)"/>
+    </linearGradient>
+
+    <!-- CLIP ДЛЯ КОНТЕЙНЕРА -->
+    <clipPath id="clipContainer">
+      <rect x="10" y="10" width="1180" height="1380" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <!-- КОНТЕЙНЕР -->
+  <rect x="10" y="10" width="1180" height="1380" rx="30"
+        fill="url(#bg)"
+        stroke="url(#borderGrad)"
+        stroke-width="4"/>
+
+  <!-- БАННЕР С CLIP -->
+  <g clip-path="url(#clipContainer)">
+    <image
+      href="https://raw.githubusercontent.com/gop1k/arizona/refs/heads/main/FBI/FBI.jpg"
+      x="10"
+      y="10"
+      width="1180"
+      height="380"
+      preserveAspectRatio="xMidYMid slice"/>
+    <rect x="10" y="10" width="1180" height="380" fill="url(#bannerShade)"/>
+    <rect x="10" y="10" width="1180" height="380" fill="url(#bannerFlash)"/>
+  </g>
+
+  <!-- ЗАГОЛОВОК -->
+  <text x="600" y="420"
+        text-anchor="middle"
+        font-family="Consolas, monospace"
+        font-size="46"
+        fill="#ffb700"
+        font-weight="700">
+    ВСТУПЛЕНИЕ В ОРГАНИЗАЦИЮ
+  </text>
+
+  <line x1="240" y1="445" x2="960" y2="445"
+        stroke="rgba(255,255,255,0.18)"
+        stroke-width="1"/>
+
+  <!-- ТЕКСТ -->
+  <text x="140" y="470"
+        font-family="Consolas, monospace"
+        font-size="22"
+        fill="rgba(255,255,255,0.85)">
+    <tspan x="140" dy="0">В данном разделе размещается информация, связанная со вступлением в организацию.</tspan>
+    <tspan x="140" dy="34">Вы можете самостоятельно указать требования, условия и порядок подачи заявления.</tspan>
+    <tspan x="140" dy="34">Например, требования к возрасту, опыту, навыкам и уровню активности на сервере.</tspan>
+    <tspan x="140" dy="34">Также здесь можно разместить список необходимых документов для подачи заявки.</tspan>
+    <tspan x="140" dy="34">После проверки заявки с вами свяжется представитель организации для дальнейших действий.</tspan>
+    <tspan x="140" dy="34">Пожалуйста, убедитесь, что все данные указаны корректно, чтобы не возникло задержек.</tspan>
+    <tspan x="140" dy="34">В дальнейшем организация может публиковать обновления по требованиям и правилам.</tspan>
+    <tspan x="140" dy="34">Следите за новостями и объявлениями на форуме для актуальной информации.</tspan>
+    <tspan x="140" dy="34">Обращаем внимание, что нарушение правил подачи заявки может привести к отказу.</tspan>
+    <tspan x="140" dy="34">При возникновении вопросов обращайтесь к администрации организации через форум.</tspan>
+    <tspan x="140" dy="34">Все заявки рассматриваются строго в порядке очереди.</tspan>
+    <tspan x="140" dy="34">Организация оставляет за собой право изменять требования без предварительного уведомления.</tspan>
+  </text>
+
+  <!-- КНОПКА -->
+  <rect x="450" y="1120" width="300" height="68" rx="16"
+        fill="#ffb700"/>
+
+  <text x="600" y="1154"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        font-family="Consolas, monospace"
+        font-size="24"
+        fill="#111318"
+        font-weight="700">
+    ПОДАТЬ ЗАЯВЛЕНИЕ
+  </text>
+
+  <!-- НИЗ -->
+  <rect x="220" y="1320" width="760" height="2" rx="1"
+        fill="url(#lineGrad)"/>
+</svg>
