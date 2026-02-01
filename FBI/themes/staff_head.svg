@@ -14,7 +14,7 @@
     
     <!-- Диагональный паттерн линий -->
     <pattern id="diagonalLines" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-      <line x1="3" y1="5" x2="5" y2="40" stroke="#2c2f38" stroke-width="2"/>
+      <line x1="2.5" y1="5" x2="5" y2="40" stroke="#2c2f38" stroke-width="2"/>
     </pattern>
     
     <!-- Переливающаяся рамка -->
