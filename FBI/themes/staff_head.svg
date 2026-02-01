@@ -33,19 +33,23 @@
       <stop offset="100%" stop-color="rgba(59,100,163,0.25)"/>
       <animateTransform attributeName="gradientTransform" type="translate" from="-200 0" to="200 0" dur="3s" repeatCount="indefinite"/>
     </linearGradient>
-  </defs>
 
-  <!-- Clip для рамки -->
-  <clipPath id="clipRect">
-    <rect x="2" y="2" width="1190" height="390" rx="28"/>
-  </clipPath>
+    <!-- Clip для рамки -->
+    <clipPath id="clipRect">
+      <rect x="2" y="2" width="1190" height="390" rx="28"/>
+    </clipPath>
+  </defs>
 
   <!-- Фон -->
   <rect x="2" y="5" width="1185" height="385" rx="28" fill="url(#bgGrad)"/>
+  
+  <!-- Диагональные линии с clip-path -->
   <rect x="2" y="2" width="1190" height="390" fill="url(#diagonalLines)" clip-path="url(#clipRect)"/>
 
   <!-- Рамка -->
   <rect x="2" y="2" width="1186" height="386" rx="28" fill="none" stroke="url(#borderGrad)" stroke-width="4"/>
+  
+  <!-- Нижняя линия (для устранения эффекта тонкой полоски) -->
   <line x1="2" y1="392" x2="1192" y2="392" stroke="url(#borderGrad)" stroke-width="4" stroke-linecap="round"/>
 
   <!-- Место для логотипа -->
