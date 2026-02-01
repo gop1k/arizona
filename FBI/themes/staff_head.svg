@@ -1,5 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1185" height="390">
-  <defs> <!-- Тёмный фон --> <linearGradient id="bgGrad" x1="0" y1="5" x2="0" y2="1"> <stop offset="0%" stop-color="#1a1c22"/> <stop offset="100%" stop-color="#0f1014"/> </linearGradient> <!-- Градиент линий --> <linearGradient id="lineGradients" x1="0" y1="5" x2="100%" y2="5"> <stop offset="0%" stop-color="#2c2f38"/> <stop offset="50%" stop-color="#555a65"/> <stop offset="100%" stop-color="#2c2f38"/> </linearGradient> <!-- Диагональный паттерн линий --> <pattern id="diagonalLines" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"> <line x1="0" y1="5" x2="0" y2="40" stroke="#2c2f38" stroke-width="2"/> </pattern> <!-- Переливающаяся рамка --> <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%"> <stop offset="0%" stop-color="#ff0000"/> <stop offset="50%" stop-color="#0000ff"/> <stop offset="100%" stop-color="#ff0000"/> <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="6s" repeatCount="indefinite"/> </linearGradient> <!-- Полоска снизу --> <linearGradient id="bottomLineGrad" x1="0%" y1="5" x2="100%" y2="5"> <stop offset="0%" stop-color="rgba(59,100,163,0.25)"/> <stop offset="50%" stop-color="rgba(59,100,163,0.6)"/> <stop offset="100%" stop-color="rgba(59,100,163,0.25)"/> <animateTransform attributeName="gradientTransform" type="translate" from="-200 0" to="200 0" dur="3s" repeatCount="indefinite"/> </linearGradient> </defs>
+  <defs> <!-- Тёмный фон -->
+    <linearGradient id="bgGrad" x1="0" y1="5" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1c22"/>
+      <stop offset="100%" stop-color="#0f1014"/>
+    </linearGradient> <!-- Градиент линий -->
+    <linearGradient id="lineGradients" x1="0" y1="5" x2="100%" y2="5">
+      <stop offset="0%" stop-color="#2c2f38"/>
+      <stop offset="50%" stop-color="#555a65"/>
+      <stop offset="100%" stop-color="#2c2f38"/>
+    </linearGradient> <!-- Диагональный паттерн линий -->
+    <pattern id="diagonalLines" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="5" y1="5" x2="5" y2="40" stroke="#2c2f38" stroke-width="2"/>
+    </pattern> <!-- Переливающаяся рамка -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0000"/>
+      <stop offset="50%" stop-color="#0000ff"/>
+      <stop offset="100%" stop-color="#ff0000"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="6s" repeatCount="indefinite"/>
+    </linearGradient> <!-- Полоска снизу -->
+    
+    <linearGradient id="bottomLineGrad" x1="0%" y1="5" x2="100%" y2="5">
+      <stop offset="0%" stop-color="rgba(59,100,163,0.25)"/>
+      <stop offset="50%" stop-color="rgba(59,100,163,0.6)"/>
+      <stop offset="100%" stop-color="rgba(59,100,163,0.25)"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-200 0" to="200 0" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
 
   <!-- Фон -->
   <rect x="0" y="5" width="1185" height="385" rx="28" fill="url(#bgGrad)"/>
@@ -31,5 +57,5 @@
   </text>
 
   <!-- Полоска снизу -->
-  <rect x="102.5" y="362.5" width="980" height="4" rx="2" fill="url(#bottomLineGrad)"/>
+  <!-- <rect x="102.5" y="362.5" width="980" height="4" rx="2" fill="url(#bottomLineGrad)"/> -->
 </svg>
