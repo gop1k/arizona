@@ -41,6 +41,7 @@
 
   <!-- Рамка -->
   <rect x="2" y="2" width="1186" height="386" rx="28" fill="none" stroke="url(#borderGrad)" stroke-width="4"/>
+  <line x1="2" y1="392" x2="1192" y2="392" stroke="url(#borderGrad)" stroke-width="4" stroke-linecap="round"/>
 
   <!-- Место для логотипа -->
   <g id="logoPlaceholder" transform="translate(243, -10)">
