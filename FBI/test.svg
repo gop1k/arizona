@@ -55,7 +55,7 @@
   <!-- БАННЕР С CLIP -->
   <g clip-path="url(#clipContainer)">
     <image
-      href="https://raw.githubusercontent.com/gop1k/arizona/refs/heads/main/FBI/FBI.jpg"
+      href="FBI.jpg"
       x="10"
       y="10"
       width="1180"
