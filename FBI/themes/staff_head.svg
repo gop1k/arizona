@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1190" height="390">
   <defs> <!-- Тёмный фон -->
-    <linearGradient id="bgGrad" x1="0" y1="5" x2="0" y2="1">
+    <linearGradient id="bgGrad" x1="5" y1="5" x2="0" y2="1">
       <stop offset="0%" stop-color="#1a1c22"/>
       <stop offset="100%" stop-color="#0f1014"/>
     </linearGradient>
     
     <!-- Градиент линий -->
-    <linearGradient id="lineGradients" x1="0" y1="0" x2="100%" y2="0">
+    <linearGradient id="lineGradients" x1="5" y1="0" x2="100%" y2="0">
       <stop offset="0%" stop-color="#2c2f38"/>
       <stop offset="50%" stop-color="#555a65"/>
       <stop offset="100%" stop-color="#2c2f38"/>
