@@ -14,7 +14,7 @@
     
     <!-- Диагональный паттерн линий -->
     <pattern id="diagonalLines" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-      <line x1="2.5" y1="5" x2="5" y2="40" stroke="#2c2f38" stroke-width="2"/>
+      <line x1="2" y1="5" x2="5" y2="40" stroke="#2c2f38" stroke-width="2"/>
     </pattern>
     
     <!-- Переливающаяся рамка -->
@@ -35,11 +35,11 @@
   </defs>
 
   <!-- Фон -->
-  <rect x="5" y="5" width="1185" height="385" rx="28" fill="url(#bgGrad)"/>
-  <rect x="5" y="5" width="1185" height="385" fill="url(#diagonalLines)"/>
+  <rect x="2" y="5" width="1185" height="385" rx="28" fill="url(#bgGrad)"/>
+  <rect x="2" y="5" width="1185" height="385" fill="url(#diagonalLines)"/>
 
   <!-- Рамка -->
-  <rect x="5" y="5" width="1185" height="385" rx="28" fill="none" stroke="url(#borderGrad)" stroke-width="4"/>
+  <rect x="2" y="5" width="1185" height="385" rx="28" fill="none" stroke="url(#borderGrad)" stroke-width="4"/>
 
   <!-- Место для логотипа -->
   <g id="logoPlaceholder" transform="translate(243, -10)">
