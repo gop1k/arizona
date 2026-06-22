@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="430" viewBox="0 0 1600 430">
+<g clip-path="url(#cut)">
+
+<defs>
+
+<linearGradient id="gold">
+
+<stop offset="0%" stop-color="#fff0a3"/>
+<stop offset="18%" stop-color="#d6a437"/>
+<stop offset="50%" stop-color="#fff4bf"/>
+<stop offset="78%" stop-color="#b57a18"/>
+<stop offset="100%" stop-color="#ffefb3"/>
+
+</linearGradient>
+
+<linearGradient id="shine">
+
+<stop offset="0%" stop-color="white" stop-opacity="0"/>
+<stop offset="50%" stop-color="white" stop-opacity=".7"/>
+<stop offset="100%" stop-color="white" stop-opacity="0"/>
+
+</linearGradient>
+
+</defs>
+
+
+<g transform="translate(260 210)">
+
+<!-- outer -->
+
+<g>
+
+<circle
+r="120"
+fill="none"
+stroke="url(#gold)"
+stroke-width="5"/>
+
+<circle
+r="98"
+fill="none"
+stroke="url(#gold)"
+stroke-width="1.5"
+stroke-dasharray="12 18"/>
+
+<animateTransform
+attributeName="transform"
+type="rotate"
+from="0"
+to="360"
+dur="40s"
+repeatCount="indefinite"/>
+
+</g>
+
+
+<!-- rays -->
+
+<g>
+
+<path
+d="
+M0,-88
+L11,-48
+L0,-58
+L-11,-48
+Z"
+fill="url(#gold)"/>
+
+<use href="#ray" transform="rotate(45)"/>
+<use href="#ray" transform="rotate(90)"/>
+<use href="#ray" transform="rotate(135)"/>
+<use href="#ray" transform="rotate(180)"/>
+<use href="#ray" transform="rotate(225)"/>
+<use href="#ray" transform="rotate(270)"/>
+<use href="#ray" transform="rotate(315)"/>
+
+<animateTransform
+attributeName="transform"
+type="rotate"
+from="360"
+to="0"
+dur="28s"
+repeatCount="indefinite"/>
+
+</g>
+
+
+<!-- center -->
+
+<circle
+r="62"
+fill="#130d05"
+stroke="url(#gold)"
+stroke-width="3"/>
+
+<text
+x="0"
+y="-8"
+text-anchor="middle"
+fill="url(#gold)"
+font-size="26"
+font-weight="900">
+
+FBI
+
+</text>
+
+<text
+x="0"
+y="24"
+text-anchor="middle"
+fill="#d8b763"
+font-size="10">
+
+ARIZONA SEDONA
+
+</text>
+
+</g>
+
+<text
+x="420"
+y="185"
+font-size="72"
+fill="white"
+font-family="Segoe UI">
+
+OOC
+
+</text>
+
+<text
+x="420"
+y="255"
+font-size="92"
+font-weight="900"
+fill="url(#gold)"
+font-family="Segoe UI">
+
+INFORMATION
+
+</text>
+
+<text
+x="425"
+y="305"
+font-size="20"
+fill="#7fb3d7">
+
+MAIN INFO • LINKS • ONLINE
+
+</text>
+
+</g>
+
+</svg>
